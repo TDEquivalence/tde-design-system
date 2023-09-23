@@ -34,7 +34,7 @@
     "vite": "^3.1.4"
   },
   "dependencies": {
-    "@storybook/addon-a11y": "^6.5.12",
+    "@storybook/addon-a11y": "^6.5.16",
     "@tde-ui/eslint-config": "*",
     "@tde-ui/react": "*",
     "@tde-ui/tokens": "*",
