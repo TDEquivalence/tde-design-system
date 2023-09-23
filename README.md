@@ -1,6 +1,6 @@
 # Components
 
-- [ ] Text
+- [X] Text
 - [ ] Heading
 - [x] Box
 - [ ] Button

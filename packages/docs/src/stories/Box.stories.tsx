@@ -1,15 +1,11 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps } from '@tde-ui/react'
+import { Box, BoxProps, Text } from '@tde-ui/react'
 
 export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: (
-      <>
-        <span>Box</span>
-      </>
-    ),
+    children: <Text>Box</Text>,
   },
 } as Meta<BoxProps>
 
