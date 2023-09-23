@@ -1,5 +1,11 @@
 # @tde-ui/react
 
+## 0.0.1
+
+### Patch Changes
+
+- Update packages version
+
 ## 0.0.2
 
 ### Patch Changes
