@@ -1,0 +1,47 @@
+{
+  "name": "@tde-ui/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "start-storybook -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "build-storybook",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.4.4",
+    "@storybook/builder-vite": "^0.2.3",
+    "@storybook/react": "^6.5.12",
+    "@storybook/react-vite": "^7.4.4",
+    "@storybook/storybook-deployer": "^2.8.12",
+    "@storybook/testing-library": "^0.0.13",
+    "@vitejs/plugin-react": "^2.1.0",
+    "babel-loader": "^8.2.5",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.4.4",
+    "vite": "^3.1.4"
+  },
+  "dependencies": {
+    "@storybook/addon-a11y": "^6.5.12",
+    "@tde-ui/eslint-config": "*",
+    "@tde-ui/react": "*",
+    "@tde-ui/tokens": "*",
+    "@tde-ui/ts-config": "*",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,15 @@
+export const fontSizes = {
+  xxs: '0.75rem',
+  xs: '0.875rem',
+  sm: '1rem',
+  md: '1.125rem',
+  lg: '1.25rem',
+  xl: '1.5rem',
+  '2xl': '1.875rem',
+  '4xl': '2.25rem',
+  '5xl': '3rem',
+  '6xl': '4rem',
+  '7xl': '5rem',
+  '8xl': '6rem',
+  '9xl': '8rem',
+}
