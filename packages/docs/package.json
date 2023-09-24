@@ -1,6 +1,7 @@
 {
   "name": "@tde-ui/docs",
   "version": "0.0.2",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {

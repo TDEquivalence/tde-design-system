@@ -1,6 +1,7 @@
 {
   "name": "@tde-ui/tokens",
   "version": "0.0.2",
+  "private": true,
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
