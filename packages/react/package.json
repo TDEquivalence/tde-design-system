@@ -1,6 +1,6 @@
 {
   "name": "@tde-ui/react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -27,6 +27,7 @@
     "typescript": "5.0"
   },
   "dependencies": {
+    "@radix-ui/react-collapsible": "^1.0.3",
     "@stitches/react": "^1.2.8"
   }
 }

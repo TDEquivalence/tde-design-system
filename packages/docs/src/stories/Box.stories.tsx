@@ -5,7 +5,7 @@ export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: <Text>Box</Text>,
+    children: <Text color="$black">Box</Text>,
   },
 } as Meta<BoxProps>
 

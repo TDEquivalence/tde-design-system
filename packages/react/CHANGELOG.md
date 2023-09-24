@@ -1,5 +1,11 @@
 # @tde-ui/react
 
+## 0.0.5
+
+### Patch Changes
+
+- create heading component
+
 ## 0.0.4
 
 ### Patch Changes

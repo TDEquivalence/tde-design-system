@@ -26,6 +26,9 @@ export default {
         '9xl',
       ],
       control: 'inline-radio',
+      defaultValue: {
+        summary: 'md',
+      },
     },
   },
 } as Meta<TextProps>
