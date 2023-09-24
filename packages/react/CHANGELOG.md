@@ -1,5 +1,11 @@
 # @tde-ui/react
 
+## 0.0.9
+
+### Patch Changes
+
+- Add some fixes
+
 ## 0.0.8
 
 ### Patch Changes

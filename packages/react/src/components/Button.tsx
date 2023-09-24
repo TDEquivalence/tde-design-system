@@ -25,6 +25,7 @@ export const Button = styled('button', {
 
   '&:disabled': {
     cursor: 'not-allowed',
+    backgroundColor: '$gray200',
   },
 
   variants: {
@@ -37,8 +38,8 @@ export const Button = styled('button', {
           backgroundColor: '$blue700',
         },
 
-        '&:disabled': {
-          backgroundColor: '$gray200',
+        '&:focus': {
+          boxShadow: '0 0 0 2px $colors$blue600',
         },
       },
 
@@ -49,6 +50,10 @@ export const Button = styled('button', {
         '&:not(:disabled):hover': {
           backgroundColor: '#c53030',
         },
+
+        '&:focus': {
+          boxShadow: '0 0 0 2px #e53e3e',
+        },
       },
 
       ghost: {
@@ -56,10 +61,6 @@ export const Button = styled('button', {
 
         '&:not(:disabled):hover': {
           backgroundColor: '$gray100',
-        },
-
-        '&:disabled': {
-          backgroundColor: '$gray200',
         },
       },
     },
@@ -83,3 +84,5 @@ export const Button = styled('button', {
 export type ButtonProps = ComponentProps<typeof Button> & {
   as?: ElementType
 }
+
+Button.displayName = 'Button'
