@@ -1,5 +1,11 @@
 # @tde-ui/react
 
+## 0.0.6
+
+### Patch Changes
+
+- create avatar component
+
 ## 0.0.5
 
 ### Patch Changes
