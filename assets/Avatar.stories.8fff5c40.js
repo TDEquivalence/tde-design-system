@@ -1,0 +1,2 @@
+import{A as t}from"./index.b3952ae6.js";import"./index.6be4084e.js";import"./iframe.71871903.js";import"./index.7810f1e7.js";import"./jsx-runtime.a2838a31.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/aescudeiro.png",alt:"Afonso Escudeiro"}},m={},p={args:{src:void 0}},e=["Primary","WithFallback"];export{m as Primary,p as WithFallback,e as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.8fff5c40.js.map
